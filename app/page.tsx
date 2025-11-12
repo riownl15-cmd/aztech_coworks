@@ -11,7 +11,6 @@ import { supabase } from '@/lib/supabase/client';
 import { Database } from '@/lib/types/database';
 import { MapPin, Users, Clock, Search, Briefcase, Coffee, Building, Calendar, ChevronDown } from 'lucide-react';
 import SpaceCard from '@/components/spaces/space-card';
-import TrustedCompanies from '@/components/home/trusted-companies';
 
 type Location = Database['public']['Tables']['locations']['Row'];
 type Space = Database['public']['Tables']['spaces']['Row'];
@@ -425,8 +424,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      <TrustedCompanies />
 
       <Footer />
     </div>
