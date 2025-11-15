@@ -94,9 +94,12 @@ export function Navbar() {
           {user ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white font-medium">
-                  {profile?.full_name || 'Account'}
-                </Button>
+                <button className={`flex items-center gap-2 font-medium transition-colors hover:opacity-80 ${
+                  isTransparent ? 'text-white' : 'text-gray-700'
+                }`}>
+                  <User className="h-5 w-5" />
+                  <span>{profile?.full_name || 'Account'}</span>
+                </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-56">
                 <div className="px-2 py-1.5">
