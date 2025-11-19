@@ -208,9 +208,9 @@ export default function SpaceDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+      <div className="min-h-screen bg-gray-50">
         <Navbar />
-        <div className="container mx-auto px-4 py-8 max-w-full">
+        <div className="container mx-auto px-4 py-8">
           <p>Loading...</p>
         </div>
         <Footer />
@@ -220,9 +220,9 @@ export default function SpaceDetailPage() {
 
   if (!space) {
     return (
-      <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+      <div className="min-h-screen bg-gray-50">
         <Navbar />
-        <div className="container mx-auto px-4 py-8 max-w-full">
+        <div className="container mx-auto px-4 py-8">
           <p>Space not found</p>
         </div>
         <Footer />
@@ -231,10 +231,10 @@ export default function SpaceDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
 
-      <div className="container mx-auto px-4 py-8 pt-24 max-w-full">
+      <div className="container mx-auto px-4 py-8 pt-24">
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="lg:col-span-2">
             <Card>

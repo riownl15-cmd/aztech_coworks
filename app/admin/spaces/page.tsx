@@ -174,9 +174,9 @@ export default function SpacesManagement() {
 
   if (authLoading || loading) {
     return (
-      <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+      <div className="min-h-screen bg-gray-50">
         <AdminNavbar />
-        <div className="container mx-auto px-4 py-8 pt-24 max-w-full">
+        <div className="container mx-auto px-4 py-8 pt-24">
           <p>Loading...</p>
         </div>
       </div>
@@ -184,10 +184,10 @@ export default function SpacesManagement() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+    <div className="min-h-screen bg-gray-50">
       <AdminNavbar />
 
-      <div className="container mx-auto px-4 py-8 pt-24 max-w-full">
+      <div className="container mx-auto px-4 py-8 pt-24">
         <div className="mb-8 flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">Manage Spaces</h1>

@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 export function Footer() {
   return (
-    <footer className="border-t bg-gray-50 w-full overflow-hidden">
-      <div className="container mx-auto px-4 py-8 max-w-full">
+    <footer className="border-t bg-gray-50">
+      <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
             <Link href="/" className="inline-block">

@@ -184,9 +184,9 @@ export default function PaymentsManagement() {
 
   if (authLoading || loading) {
     return (
-      <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+      <div className="min-h-screen bg-gray-50">
         <AdminNavbar />
-        <div className="container mx-auto px-4 py-8 pt-24 max-w-full">
+        <div className="container mx-auto px-4 py-8 pt-24">
           <p>Loading...</p>
         </div>
       </div>
@@ -194,10 +194,10 @@ export default function PaymentsManagement() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
+    <div className="min-h-screen bg-gray-50">
       <AdminNavbar />
 
-      <div className="container mx-auto px-4 py-8 pt-24 max-w-full">
+      <div className="container mx-auto px-4 py-8 pt-24">
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">
             <div>
