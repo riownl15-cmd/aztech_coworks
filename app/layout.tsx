@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-white">
-      <body className={`${inter.className} bg-white`}>
+    <html lang="en">
+      <body className={inter.className}>
         <AuthProvider>
           {children}
           <Toaster />
