@@ -79,7 +79,7 @@ export default function AdminDashboard() {
 
   if (authLoading || loading) {
     return (
-      <div className="min-h-screen bg-white w-full overflow-x-hidden">
+      <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
         <AdminNavbar />
         <div className="container mx-auto px-4 py-8 pt-24 max-w-full">
           <p>Loading...</p>
@@ -89,7 +89,7 @@ export default function AdminDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-white w-full overflow-x-hidden">
+    <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
       <AdminNavbar />
 
       <div className="container mx-auto px-4 py-8 pt-24 max-w-full">

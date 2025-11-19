@@ -121,7 +121,7 @@ export default function SpacesPage() {
 
 
   return (
-    <div className="min-h-screen bg-white w-full overflow-x-hidden">
+    <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
       <Navbar />
 
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white pt-20 w-full overflow-hidden">

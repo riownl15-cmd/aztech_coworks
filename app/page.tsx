@@ -377,7 +377,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 bg-white w-full overflow-hidden">
+      <section className="py-16 bg-gray-50 w-full overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -389,8 +389,8 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10"></div>
-            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
+            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-gray-50 to-transparent z-10"></div>
 
             <div className="flex overflow-hidden">
               <div className="flex animate-scroll">

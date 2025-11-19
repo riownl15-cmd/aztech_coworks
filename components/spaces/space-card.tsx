@@ -41,8 +41,8 @@ const spaceTypeColors: Record<string, string> = {
 
 export default function SpaceCard({ space }: SpaceCardProps) {
   return (
-    <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 shadow-md bg-white">
-      <div className="relative h-56 overflow-hidden bg-white">
+    <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 shadow-md">
+      <div className="relative h-56 overflow-hidden bg-gray-100">
         <Image
           src={space.image_url}
           alt={space.name}
@@ -87,7 +87,7 @@ export default function SpaceCard({ space }: SpaceCardProps) {
             )}
           </div>
 
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 pt-4 border-t">
+          <div className="flex items-end justify-between pt-4 border-t">
             <div>
               <div className="flex items-baseline gap-1">
                 <IndianRupee className="h-5 w-5 text-blue-600" />
@@ -96,8 +96,8 @@ export default function SpaceCard({ space }: SpaceCardProps) {
               </div>
               <p className="text-xs text-gray-500 mt-1">Starting from</p>
             </div>
-            <Link href={`/spaces/${space.id}`} className="w-full sm:w-auto">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white w-full sm:w-auto">
+            <Link href={`/spaces/${space.id}`}>
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                 <Calendar className="h-4 w-4 mr-2" />
                 Book Now
               </Button>
