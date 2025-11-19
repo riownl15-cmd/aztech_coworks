@@ -107,12 +107,12 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white w-full overflow-x-hidden">
       <Navbar />
 
-      <section className="relative text-white overflow-hidden min-h-screen flex items-center">
+      <section className="relative text-white overflow-hidden min-h-screen flex items-center w-full">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700"></div>
-        <div className="container relative mx-auto px-4 py-32 md:py-40">
+        <div className="container relative mx-auto px-4 py-32 md:py-40 max-w-full">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight text-white drop-shadow-lg mb-4">
@@ -248,8 +248,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-white w-full overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-gray-900">
               Upgrade your office space in <span className="text-blue-600">4</span> simple steps
@@ -294,8 +294,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-white w-full overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
           <div className="mb-12">
             <h2 className="mb-8 text-3xl font-bold text-gray-900">
               Featured Workspaces
@@ -377,7 +377,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50 overflow-hidden">
+      <section className="py-16 bg-gray-50 w-full overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
@@ -544,8 +544,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-white w-full overflow-hidden">
+        <div className="container mx-auto px-4 max-w-full">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
               What Our Clients Say
@@ -685,7 +685,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 py-20">
+      <section className="bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700 py-20 w-full overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(0,0,255,0.2),transparent_50%)]"></div>
         <div className="container relative mx-auto px-4">
           <div className="mx-auto max-w-4xl text-center space-y-8">

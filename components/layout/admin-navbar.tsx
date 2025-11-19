@@ -44,8 +44,8 @@ export function AdminNavbar() {
   ];
 
   return (
-    <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 shadow-sm">
-      <div className="px-4 py-3">
+    <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-white border-b border-gray-200 shadow-sm">
+      <div className="px-4 py-3 max-w-full">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/admin" className="flex items-center mr-8">

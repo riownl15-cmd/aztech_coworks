@@ -35,12 +35,12 @@ export function Navbar() {
   const isTransparent = isHomePage && !scrolled;
 
   return (
-    <nav className={`fixed top-0 z-50 w-full transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 ${
       isTransparent
         ? 'bg-transparent'
         : 'bg-white border-b border-gray-200 shadow-md'
     }`}>
-      <div className="container mx-auto flex h-20 items-center justify-between px-4">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4 max-w-full">
         <Link href="/" className="flex items-center">
           <Image
             src="/aztech logo.png"

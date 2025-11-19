@@ -121,17 +121,17 @@ export default function SpacesPage() {
 
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 w-full overflow-x-hidden">
       <Navbar />
 
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white pt-20">
-        <div className="container mx-auto px-4 py-12">
+      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white pt-20 w-full overflow-hidden">
+        <div className="container mx-auto px-4 py-12 max-w-full">
           <h1 className="text-4xl font-bold mb-2">Browse Workspaces</h1>
           <p className="text-blue-100">Find the perfect space for your next project</p>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 max-w-full">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
             <SpaceFiltersComponent
