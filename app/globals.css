@@ -83,7 +83,8 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-color: #ffffff !important;
     overflow-x: hidden;
     width: 100%;
     position: relative;
